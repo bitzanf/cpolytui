@@ -1,0 +1,15 @@
+#ifndef POLYTUI_<<ELEMENT>>_H
+#define POLYTUI_<<ELEMENT>>_H
+
+#define <<ELEMENT>>_N_CLS_PROPERTIES 1 /* count */
+#define <<ELEMENT>>_N_LOCAL_PROPERTIES 1 /* count */
+
+struct TUIElement;
+struct VTABLE;
+bool <<ELEMENT>>_constructor(struct TUIElement *el);
+void <<ELEMENT>>_destructor(struct TUIElement *el);
+
+bool <<ELEMENT>>_class_init(struct VTABLE *vtable);
+void <<ELEMENT>>_class_deinit(struct VTABLE *vtable);
+
+#endif //POLYTUI_<<ELEMENT>>_H

@@ -1,0 +1,17 @@
+#include "elements/<<element>>.h"
+
+bool <<ELEMENT>>_constructor(struct TUIElement *el) {
+
+}
+
+void <<ELEMENT>>_destructor(struct TUIElement *el) {
+
+}
+
+bool <<ELEMENT>>_class_init(struct VTABLE *vtable) {
+
+}
+
+void <<ELEMENT>>_class_deinit(struct VTABLE *vtable) {
+
+}
